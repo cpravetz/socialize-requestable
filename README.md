@@ -73,7 +73,7 @@ The Rest of the code runs independent of which environment.
 ```javascript
 import { GroupMember } from './GroupMember.js';
 
-import SimpleSchema from 'simpl-schema';
+import SimpleSchema from 'meteor/aldeed:simple-schema';
 
 const GroupsCollection = new Mongo.Collection('groups');
 
